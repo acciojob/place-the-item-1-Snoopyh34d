@@ -1,2 +1,10 @@
+.holder {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: space-between; /* Space items evenly with space at both ends */
+}
 
-/* Your CSS Code here. */
+.item {
+  flex: 0 0 auto; /* Allow items to have their natural width */
+  margin: 10px; /* Add spacing between items */
+}

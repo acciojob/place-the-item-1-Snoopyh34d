@@ -1,16 +1,38 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <title>Flexbox Wrap Example</title>
+  <style>
+    /* CSS from the previous response */
+    .holder {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
 
+    .item {
+      flex: 0 0 auto;
+      margin: 10px;
+      background-color: #f0f0f0; /* Optional: Add background color for visual clarity */
+      padding: 20px; 
+      border: 1px solid #ccc; 
+    }
+  </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <div class="holder">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <div class="item">Item 4</div>
+    <div class="item">Item 5</div>
+    <div class="item">Item 6</div>
+    <div class="item">Item 7</div>
+    <div class="item">Item 8</div>
+    <div class="item">Item 9</div>
+    <div class="item">Item 10</div>
+  </div>
 
 </body>
-
 </html>
